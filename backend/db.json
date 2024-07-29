@@ -1,0 +1,37 @@
+{
+  "courses": [
+    {
+      "title": "HTML",
+      "trainer": "Pooja",
+      "description": "Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.",
+      "id": "3822"
+    },
+    {
+      "title": "CSS",
+      "trainer": "Pooja Chawan",
+      "description": "Cascading Style Sheets is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript",
+      "id": "4797"
+    },
+    {
+      "id": "b0ce",
+      "title": "Javascript",
+      "trainer": "Divakar Rai",
+      "description": "JavaScript, often abbreviated as JS, is a programming language and core technology of the Web, alongside HTML and CSS. 99% of websites use JavaScript on the client side for webpage behavior. Web browsers have a dedicated JavaScript engine that executes the client code",
+      "createdAt": "2024-07-15"
+    },
+    {
+      "id": "7449",
+      "title": "Typescript",
+      "trainer": "Prajwal",
+      "description": "TypeScript is a free and open-source high-level programming language developed by Microsoft that adds static typing with optional type annotations to JavaScript. It is designed for the development of large applications and transpiles to JavaScript.",
+      "createdAt": "2024-07-22"
+    },
+    {
+      "id": "7a8b",
+      "title": "React js",
+      "trainer": "Shashi",
+      "description": "React is a free and open-source front-end JavaScript library for building user interfaces based on components by Facebook Inc. It is maintained by Meta and a community of individual developers and companies. React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js",
+      "createdAt": "2024-07-29"
+    }
+  ]
+}
