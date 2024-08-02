@@ -300,7 +300,11 @@ body {
 	border-bottom: 1px solid #efefef;
 	margin: 10px 0;
 }
-
+.course_details header aside{
+	display: flex;
+	float: right;
+	gap: 5px;
+}
 .course_details header a.btn-help {
 	float: right;
 	text-transform: lowercase;
@@ -309,6 +313,9 @@ body {
 	padding: 3px 20px;
 	border: 1px solid #ccc;
 	border-radius: 5px;
+}
+.navbar{
+	flex-basis: 80%;
 }
 
 .edit-section {
@@ -351,10 +358,107 @@ body {
 }
 
 .searchIcon svg{
-    position: absolute;
-    right: 10px;
-    top: -1px;   
-    font-size:  25px;
-    color: #9c27b0;
-    font-weight: 100;
+	position: absolute;
+	right: 10px;
+	top: -1px; 
+	font-size: 25px;
+	color: #9c27b0;
+	font-weight: 100;
+}
+
+/* userBlock css starts here */
+
+.userBlock {
+	background: #fff;
+	width: 100%;
+	padding: 10px;
+}
+userBlock header{
+	height: inherit;
+	vertical-align: bottom;
+	border: solid;
+}
+.userBlock h2 {
+	color: var(--base-btn-color);
+	font-weight: 300;
+	text-transform: uppercase;
+	padding: 10px 0;
+
+}
+
+.userBlock table {
+	border: 1px solid #efefef;
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.userBlock tr,
+td {
+	border: 1px solid #efefef;
+	padding: 10px;
+
+}
+.userBlock thead {
+	background-color: #6300a3;
+	color: #fff;
+	padding: 10px;
+	height: 20px;
+	padding: 20px;
+	height: 50px;
+	border: 1px solid #fff;
+}
+
+.userBlock img {
+	width: 100px;
+	height: 100px;
+	border-radius: 5px;
+}
+.nav-link{
+	background-color: #673ab7;
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+.nav-link:hover{
+	background-color: transparent;
+	border: 1px solid #673ab7;
+	color: #673ab7;
+}
+.navbar ul{
+	display: flex;
+	list-style: none;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 15px;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	color: #111;
+	text-transform: capitalize;
+	box-sizing: 5px;
+	border-radius: 10px;
+}
+.navbar ul li a:hover{
+	color: #df3354;
+}
+.navbar ul li a.active{
+	background: #6300a3;
+	color: #fff;
+}
+
+.logout-btn{
+	background: #e91e63;
+	color: #fff;
+	padding: 9px 11px;
+	display: inline-grid;
+	border-radius: 5px;
+	border: 1px solid #cf296199;
+	cursor: pointer;
+	font-weight: 700;
+	text-transform: capitalize;
 }

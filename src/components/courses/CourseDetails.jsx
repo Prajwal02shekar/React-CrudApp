@@ -22,19 +22,21 @@ const CourseDetails = () => {
 	return (
 		<div className="course_details">
 			<header>
-				<Link to={`/edit/${id}`} className="edit btn-help">
-					edit
-				</Link>
-				<Link
-					to="/"
-					className="delete btn-help"
-					onClick={() => deleteCourse(id)}
-				>
-					delete
-				</Link>
-				<Link to="/" className="back btn-help">
-					back
-				</Link>
+				<aside>
+					<Link to={`/edit/${id}`} className="edit btn-help">
+						edit
+					</Link>
+					<Link
+						to="/"
+						className="delete btn-help"
+						onClick={() => deleteCourse(id)}
+					>
+						delete
+					</Link>
+					<Link to="/" className="back btn-help">
+						back
+					</Link>
+				</aside>
 				<h2>{title}</h2>
 			</header>
 			<main>

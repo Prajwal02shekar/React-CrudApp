@@ -2,7 +2,7 @@
   "courses": [
     {
       "title": "HTML",
-      "trainer": "Pooja",
+      "trainer": "Pooja Chawan",
       "description": "Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.",
       "id": "3822"
     },
@@ -20,18 +20,22 @@
       "createdAt": "2024-07-15"
     },
     {
-      "id": "7449",
       "title": "Typescript",
-      "trainer": "Prajwal",
+      "trainer": "Prajwal C",
       "description": "TypeScript is a free and open-source high-level programming language developed by Microsoft that adds static typing with optional type annotations to JavaScript. It is designed for the development of large applications and transpiles to JavaScript.",
-      "createdAt": "2024-07-22"
+      "id": "7449"
     },
     {
-      "id": "7a8b",
       "title": "React js",
-      "trainer": "Shashi",
+      "trainer": "Shashi Kunal",
       "description": "React is a free and open-source front-end JavaScript library for building user interfaces based on components by Facebook Inc. It is maintained by Meta and a community of individual developers and companies. React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js",
-      "createdAt": "2024-07-29"
+      "id": "7a8b"
+    },
+    {
+      "title": "node js",
+      "trainer": "Srinivas",
+      "description": "Node.js is a cross-platform, open-source JavaScript runtime environment that can run on Windows, Linux, Unix, macOS, and more. Node.js runs on the V8 JavaScript engine, and executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting.",
+      "id": "01ec"
     }
   ]
 }

@@ -1,11 +1,14 @@
-import axios from 'axios'
-import React, { useEffect, useState } from 'react'
+
+import { useEffect, useState, useContext } from 'react'
 import Spinner from '../../pages/spinner/Spinner'
 import Course from './Course'
 import courseServices from '../../services/CourseService'
 import SearchCourses from '../searchFilter/SearchCourses'
+import { UserContextApi } from '../../context/UserContext'
+
 
 const AllCourses = () => {
+	let { users, fetchUsers } = useContext(UserContextApi);
 	let [state, setState] = useState(null)
 	let[searchTerm,setSearchTerm]=useState("")
 		let fetchCourses = async () => {
@@ -19,6 +22,7 @@ const AllCourses = () => {
 
 		useEffect(() => {
 			fetchCourses();
+			fetchUsers();
 		}, []);
 
 	let filteredCourse = state?.filter(val => {
