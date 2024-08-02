@@ -1,5 +1,5 @@
 const AuthReducer = (state, action) => {
-	let { type, payload } = action;
+    let { type, payload, profile } = action;
 	switch (type) {
 		case "SIGNUP":
 			return {
@@ -26,7 +26,7 @@ const AuthReducer = (state, action) => {
         case "GETME":
             return {
                 ...state,
-                profile:payload,
+                profile,
             }
         default:
             return {
